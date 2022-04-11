@@ -51,7 +51,7 @@ function Dashboard() {
         >
           <Card
             bordered={false}
-            title={<h6 className="font-semibold m-0">Broadband plan</h6>}
+            title={<h6 className="font-semibold m-0">{obj.packageName}</h6>}
             className="header-solid h-full card-profile-information"
             bodyStyle={{ paddingTop: 0, paddingBottom: 16 }}
           >
